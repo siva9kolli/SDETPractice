@@ -1,0 +1,30 @@
+1. Contains() - *
+2. text()
+3. Starts-with() - ^
+4. Ends-with() - $
+5. Normalize-space()
+
+Xpath Axes - Following, Following-sibling, Preceding, Preceding-sibling, Ancestor, parent, child, self, self-or-descendant, descendant,
+
+Absolute Xpath - avoid - starting html/head/body/div/p/p/a
+Relative Xpath - jntu/kkp
+
+Priority:
+1. Id, name, classname, linktext, partialtext
+2. cssSelector
+3. Xpath
+
+Xpath:
+
+//tagName[@attribute=‘value’]
+//tagName[@locator-ID, Class,name=‘value’]
+
+CSS Selector:
+
+Syntax for className:
+tagname.classname_value
+Syntax for iD:
+tagname#id_value
+Syntax for css:
+tagname[attribute=‘value’]
+
