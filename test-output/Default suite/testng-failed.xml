@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sixAutomation.SDETTraining.OpenBrowser">
+      <class name="org.sixAutomation.SDETTraining.MoveToELementAndClick">
         <methods>
-          <include name="launchBrowser"/>
           <include name="killSession"/>
+          <include name="lanuchApp"/>
+          <include name="selectSubMenuItem"/>
         </methods>
-      </class> <!-- org.sixAutomation.SDETTraining.OpenBrowser -->
+      </class> <!-- org.sixAutomation.SDETTraining.MoveToELementAndClick -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
