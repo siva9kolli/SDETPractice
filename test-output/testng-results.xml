@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11482" started-at="2021-08-19T12:46:28Z" finished-at="2021-08-19T12:46:39Z">
+  <suite name="Default suite" duration-ms="10240" started-at="2021-08-20T10:09:12Z" finished-at="2021-08-20T10:09:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11482" started-at="2021-08-19T12:46:28Z" finished-at="2021-08-19T12:46:39Z">
-      <class name="org.sixAutomation.SDETTraining.MoveToELementAndClick">
-        <test-method status="PASS" signature="lanuchApp()[pri:0, instance:org.sixAutomation.SDETTraining.MoveToELementAndClick@31c88ec8]" name="lanuchApp" is-config="true" duration-ms="8061" started-at="2021-08-19T12:46:20Z" finished-at="2021-08-19T12:46:28Z">
+    <test name="Default test" duration-ms="10240" started-at="2021-08-20T10:09:12Z" finished-at="2021-08-20T10:09:22Z">
+      <class name="org.sixAutomation.SDETTraining.UnderstandingDriver">
+        <test-method status="PASS" signature="test1()[pri:0, instance:org.sixAutomation.SDETTraining.UnderstandingDriver@66a3ffec]" name="test1" duration-ms="10207" started-at="2021-08-20T10:09:12Z" finished-at="2021-08-20T10:09:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lanuchApp -->
-        <test-method status="PASS" signature="selectSubMenuItem()[pri:0, instance:org.sixAutomation.SDETTraining.MoveToELementAndClick@31c88ec8]" name="selectSubMenuItem" duration-ms="11333" started-at="2021-08-19T12:46:28Z" finished-at="2021-08-19T12:46:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectSubMenuItem -->
-        <test-method status="PASS" signature="killSession()[pri:0, instance:org.sixAutomation.SDETTraining.MoveToELementAndClick@31c88ec8]" name="killSession" is-config="true" duration-ms="156" started-at="2021-08-19T12:46:44Z" finished-at="2021-08-19T12:46:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killSession -->
-      </class> <!-- org.sixAutomation.SDETTraining.MoveToELementAndClick -->
+        </test-method> <!-- test1 -->
+      </class> <!-- org.sixAutomation.SDETTraining.UnderstandingDriver -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

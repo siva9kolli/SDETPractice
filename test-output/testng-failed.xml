@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sixAutomation.SDETTraining.MoveToELementAndClick">
+      <class name="org.sixAutomation.SDETTraining.UnderstandingDriver">
         <methods>
-          <include name="killSession"/>
-          <include name="lanuchApp"/>
-          <include name="selectSubMenuItem"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- org.sixAutomation.SDETTraining.MoveToELementAndClick -->
+      </class> <!-- org.sixAutomation.SDETTraining.UnderstandingDriver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
