@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sixAutomation.SDETTraining.UnderstandingDriver">
+      <class name="org.sixAutomation.SDETTraining.FramesHandle">
         <methods>
-          <include name="test1"/>
+          <include name="switchingToInnerFrames"/>
+          <include name="killSession"/>
+          <include name="lanuchApp"/>
         </methods>
-      </class> <!-- org.sixAutomation.SDETTraining.UnderstandingDriver -->
+      </class> <!-- org.sixAutomation.SDETTraining.FramesHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

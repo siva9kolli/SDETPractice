@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10240" started-at="2021-08-20T10:09:12Z" finished-at="2021-08-20T10:09:22Z">
+  <suite name="Default suite" duration-ms="1505" started-at="2021-08-24T07:36:39Z" finished-at="2021-08-24T07:36:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10240" started-at="2021-08-20T10:09:12Z" finished-at="2021-08-20T10:09:22Z">
-      <class name="org.sixAutomation.SDETTraining.UnderstandingDriver">
-        <test-method status="PASS" signature="test1()[pri:0, instance:org.sixAutomation.SDETTraining.UnderstandingDriver@66a3ffec]" name="test1" duration-ms="10207" started-at="2021-08-20T10:09:12Z" finished-at="2021-08-20T10:09:22Z">
+    <test name="Default test" duration-ms="1505" started-at="2021-08-24T07:36:39Z" finished-at="2021-08-24T07:36:41Z">
+      <class name="org.sixAutomation.SDETTraining.FramesHandle">
+        <test-method status="PASS" signature="lanuchApp()[pri:0, instance:org.sixAutomation.SDETTraining.FramesHandle@57baeedf]" name="lanuchApp" is-config="true" duration-ms="2098" started-at="2021-08-24T07:36:37Z" finished-at="2021-08-24T07:36:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- org.sixAutomation.SDETTraining.UnderstandingDriver -->
+        </test-method> <!-- lanuchApp -->
+        <test-method status="PASS" signature="switchingToInnerFrames()[pri:0, instance:org.sixAutomation.SDETTraining.FramesHandle@57baeedf]" name="switchingToInnerFrames" duration-ms="1486" started-at="2021-08-24T07:36:39Z" finished-at="2021-08-24T07:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchingToInnerFrames -->
+        <test-method status="PASS" signature="killSession()[pri:0, instance:org.sixAutomation.SDETTraining.FramesHandle@57baeedf]" name="killSession" is-config="true" duration-ms="91" started-at="2021-08-24T07:36:46Z" finished-at="2021-08-24T07:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killSession -->
+      </class> <!-- org.sixAutomation.SDETTraining.FramesHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

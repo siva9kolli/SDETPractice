@@ -16,8 +16,10 @@ public class LaunchApplication {
 	public void lanuchApp() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.get("https://www.salesforce.com/in/form/signup/freetrial-sales/?d=jumbo1-btn-ft");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		//driver.get("https://www.salesforce.com/in/form/signup/freetrial-sales/?d=jumbo1-btn-ft");
+		
+		
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 	
 	@AfterSuite
