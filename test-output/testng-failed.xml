@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sixAutomation.SDETTraining.TestNG.TypesOfAssertions">
+      <class name="org.sixAutomation.SDETTraining.TestNG.SeleniumWaits">
         <methods>
-          <include name="verifyTextOnThePage"/>
+          <include name="initialize"/>
+          <include name="understandingWebDriverWait"/>
+          <include name="killSession"/>
         </methods>
-      </class> <!-- org.sixAutomation.SDETTraining.TestNG.TypesOfAssertions -->
+      </class> <!-- org.sixAutomation.SDETTraining.TestNG.SeleniumWaits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,23 +12,25 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TypesOfAssertions {
 	
-	//@Test
+	@Test
 	public void assertATest() {
+		SoftAssert sa = new SoftAssert();
 		String str = "Java";
 		String str1 = "Selenium";
 		boolean yes = true;
 		
-		Assert.assertEquals(str, "Java");
+		sa.assertEquals(str, "Ja");
 		System.out.println("java Success");
 		
-		Assert.assertEquals(str1, "Selenium");
+		sa.assertEquals(str1, "Seium");
 		System.out.println("selenium Success");
 		
-		Assert.assertTrue(yes);
+		sa.assertTrue(yes);
 		System.out.println("Test Success");
+		sa.assertAll();
 	}
 	
-	@Test
+	//@Test
 	public void verifyTextOnThePage() {
 		
 		
@@ -44,6 +46,7 @@ public class TypesOfAssertions {
 		
 		sa.assertEquals(locationsLink.getText(), "ABC");
 		sa.assertTrue(adminPageLink.isDisplayed());
+		
 		System.out.println("Test Completed");
 		sa.assertAll();
 		driver.quit();
