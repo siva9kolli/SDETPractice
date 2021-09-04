@@ -1,4 +1,4 @@
-package org.sixAutomation.SDETTraining.TestNG;
+package org.sixAutomation.SDETTraining;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
