@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8571" started-at="2021-09-04T17:18:57 IST" finished-at="2021-09-04T17:19:06 IST">
+  <suite name="Default suite" duration-ms="128" started-at="2021-09-08T10:13:14 IST" finished-at="2021-09-08T10:13:14 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8571" started-at="2021-09-04T17:18:57 IST" finished-at="2021-09-04T17:19:06 IST">
-      <class name="org.sixAutomation.SDETTraining.HandleMultipleWindows">
-        <test-method status="PASS" signature="lanuchApp()[pri:0, instance:org.sixAutomation.SDETTraining.HandleMultipleWindows@1c3a4799]" name="lanuchApp" is-config="true" duration-ms="2051" started-at="2021-09-04T17:18:55 IST" finished-at="2021-09-04T17:18:57 IST">
+    <test name="Default test" duration-ms="128" started-at="2021-09-08T10:13:14 IST" finished-at="2021-09-08T10:13:14 IST">
+      <class name="org.sixAutomation.SDETTraining.JavaCollections">
+        <test-method status="PASS" signature="understandingMap()[pri:0, instance:org.sixAutomation.SDETTraining.JavaCollections@a7e666]" name="understandingMap" duration-ms="23" started-at="2021-09-08T10:13:14 IST" finished-at="2021-09-08T10:13:14 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lanuchApp -->
-        <test-method status="PASS" signature="verifySwitchingWindow()[pri:0, instance:org.sixAutomation.SDETTraining.HandleMultipleWindows@1c3a4799]" name="verifySwitchingWindow" duration-ms="8539" started-at="2021-09-04T17:18:57 IST" finished-at="2021-09-04T17:19:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySwitchingWindow -->
-        <test-method status="PASS" signature="killSession()[pri:0, instance:org.sixAutomation.SDETTraining.HandleMultipleWindows@1c3a4799]" name="killSession" is-config="true" duration-ms="99" started-at="2021-09-04T17:19:11 IST" finished-at="2021-09-04T17:19:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killSession -->
-      </class> <!-- org.sixAutomation.SDETTraining.HandleMultipleWindows -->
+        </test-method> <!-- understandingMap -->
+      </class> <!-- org.sixAutomation.SDETTraining.JavaCollections -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
