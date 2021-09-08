@@ -18,7 +18,7 @@ public class LaunchApplication {
 		driver = new ChromeDriver();
 		//driver.get("https://www.salesforce.com/in/form/signup/freetrial-sales/?d=jumbo1-btn-ft");
 		
-		
+		driver.get("https://parabank.parasoft.com/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 	

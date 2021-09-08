@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sixAutomation.SDETTraining.HandleMultipleWindows">
+      <class name="org.sixAutomation.SDETTraining.VerifyOfListOfElements">
         <methods>
+          <include name="verifyListOfElements"/>
           <include name="killSession"/>
           <include name="lanuchApp"/>
-          <include name="verifySwitchingWindow"/>
         </methods>
-      </class> <!-- org.sixAutomation.SDETTraining.HandleMultipleWindows -->
+      </class> <!-- org.sixAutomation.SDETTraining.VerifyOfListOfElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
