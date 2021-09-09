@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4936" started-at="2021-09-08T10:44:04 IST" finished-at="2021-09-08T10:44:09 IST">
+  <suite name="Default suite" duration-ms="36033" started-at="2021-09-09T11:09:18 IST" finished-at="2021-09-09T11:09:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4936" started-at="2021-09-08T10:44:04 IST" finished-at="2021-09-08T10:44:09 IST">
-      <class name="org.sixAutomation.SDETTraining.VerifyOfListOfElements">
-        <test-method status="PASS" signature="lanuchApp()[pri:0, instance:org.sixAutomation.SDETTraining.VerifyOfListOfElements@1c3a4799]" name="lanuchApp" is-config="true" duration-ms="11037" started-at="2021-09-08T10:43:53 IST" finished-at="2021-09-08T10:44:04 IST">
+    <test name="Default test" duration-ms="36033" started-at="2021-09-09T11:09:18 IST" finished-at="2021-09-09T11:09:54 IST">
+      <class name="org.sixAutomation.SDETTraining.SingleVsMultipleElements">
+        <test-method status="PASS" signature="lanuchApp()[pri:0, instance:org.sixAutomation.SDETTraining.SingleVsMultipleElements@711f39f9]" name="lanuchApp" is-config="true" duration-ms="7051" started-at="2021-09-09T11:09:11 IST" finished-at="2021-09-09T11:09:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanuchApp -->
-        <test-method status="PASS" signature="verifyListOfElements()[pri:0, instance:org.sixAutomation.SDETTraining.VerifyOfListOfElements@1c3a4799]" name="verifyListOfElements" duration-ms="4881" started-at="2021-09-08T10:44:04 IST" finished-at="2021-09-08T10:44:09 IST">
+        <test-method status="PASS" signature="verifyDuplicateElements()[pri:0, instance:org.sixAutomation.SDETTraining.SingleVsMultipleElements@711f39f9]" name="verifyDuplicateElements" duration-ms="36009" started-at="2021-09-09T11:09:18 IST" finished-at="2021-09-09T11:09:54 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyListOfElements -->
-        <test-method status="PASS" signature="killSession()[pri:0, instance:org.sixAutomation.SDETTraining.VerifyOfListOfElements@1c3a4799]" name="killSession" is-config="true" duration-ms="136" started-at="2021-09-08T10:44:14 IST" finished-at="2021-09-08T10:44:14 IST">
+        </test-method> <!-- verifyDuplicateElements -->
+        <test-method status="PASS" signature="killSession()[pri:0, instance:org.sixAutomation.SDETTraining.SingleVsMultipleElements@711f39f9]" name="killSession" is-config="true" duration-ms="104" started-at="2021-09-09T11:09:59 IST" finished-at="2021-09-09T11:09:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killSession -->
-      </class> <!-- org.sixAutomation.SDETTraining.VerifyOfListOfElements -->
+      </class> <!-- org.sixAutomation.SDETTraining.SingleVsMultipleElements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
