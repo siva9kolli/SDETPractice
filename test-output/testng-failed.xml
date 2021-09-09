@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sixAutomation.SDETTraining.SingleVsMultipleElements">
+      <class name="org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding">
         <methods>
+          <include name="staleTest"/>
           <include name="killSession"/>
           <include name="lanuchApp"/>
-          <include name="verifyDuplicateElements"/>
         </methods>
-      </class> <!-- org.sixAutomation.SDETTraining.SingleVsMultipleElements -->
+      </class> <!-- org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

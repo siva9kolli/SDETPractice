@@ -35,6 +35,7 @@ public class SingleVsMultipleElements extends LaunchApplication{
 		
 		for(int i=0; i<deleteButtons.size(); i++ ) {
 			deleteButtons.get(i).click();
+			//deleteButton.click();
 		}
 		
 		System.out.println("deleteButtons.size() === " + driver.findElements(By.cssSelector(".added-manually")).size());
