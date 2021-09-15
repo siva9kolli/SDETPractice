@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding">
+      <class name="org.sixAutomation.SDETTraining.HandleWithJavaScriptExecutor">
         <methods>
-          <include name="staleTest"/>
           <include name="killSession"/>
           <include name="lanuchApp"/>
+          <include name="useOnlyUsingID"/>
         </methods>
-      </class> <!-- org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding -->
+      </class> <!-- org.sixAutomation.SDETTraining.HandleWithJavaScriptExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

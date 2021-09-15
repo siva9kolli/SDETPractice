@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13392" started-at="2021-09-09T11:28:15 IST" finished-at="2021-09-09T11:28:28 IST">
+  <suite name="Default suite" duration-ms="9612" started-at="2021-09-15T11:51:52 IST" finished-at="2021-09-15T11:52:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13392" started-at="2021-09-09T11:28:15 IST" finished-at="2021-09-09T11:28:28 IST">
-      <class name="org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding">
-        <test-method status="PASS" signature="lanuchApp()[pri:0, instance:org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding@45752059]" name="lanuchApp" is-config="true" duration-ms="6971" started-at="2021-09-09T11:28:08 IST" finished-at="2021-09-09T11:28:15 IST">
+    <test name="Default test" duration-ms="9612" started-at="2021-09-15T11:51:52 IST" finished-at="2021-09-15T11:52:02 IST">
+      <class name="org.sixAutomation.SDETTraining.HandleWithJavaScriptExecutor">
+        <test-method status="PASS" signature="lanuchApp()[pri:0, instance:org.sixAutomation.SDETTraining.HandleWithJavaScriptExecutor@1c3a4799]" name="lanuchApp" is-config="true" duration-ms="7177" started-at="2021-09-15T11:51:45 IST" finished-at="2021-09-15T11:51:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanuchApp -->
-        <test-method status="FAIL" signature="staleTest()[pri:0, instance:org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding@45752059]" name="staleTest" duration-ms="13350" started-at="2021-09-09T11:28:15 IST" finished-at="2021-09-09T11:28:28 IST">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method status="FAIL" signature="useOnlyUsingID()[pri:0, instance:org.sixAutomation.SDETTraining.HandleWithJavaScriptExecutor@1c3a4799]" name="useOnlyUsingID" duration-ms="9576" started-at="2021-09-15T11:51:52 IST" finished-at="2021-09-15T11:52:02 IST">
+          <exception class="org.openqa.selenium.JavascriptException">
             <message>
-              <![CDATA[element not interactable:  has no size and location
-  (Session info: chrome=93.0.4577.63)
+              <![CDATA[javascript error: document.getElementByName is not a function
+  (Session info: chrome=93.0.4577.82)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/4k/3vyfypg10rv...}, goog:chromeOptions: {debuggerAddress: localhost:63048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7762514573f3301c5e8e4ec62892b6c9]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: /var/folders/4k/3vyfypg10rv...}, goog:chromeOptions: {debuggerAddress: localhost:61076}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7eca2300a3a089789e8bc0b9ce20602b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable:  has no size and location
-  (Session info: chrome=93.0.4577.63)
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: document.getElementByName is not a function
+  (Session info: chrome=93.0.4577.82)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/4k/3vyfypg10rv...}, goog:chromeOptions: {debuggerAddress: localhost:63048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7762514573f3301c5e8e4ec62892b6c9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: /var/folders/4k/3vyfypg10rv...}, goog:chromeOptions: {debuggerAddress: localhost:61076}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7eca2300a3a089789e8bc0b9ce20602b
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -40,9 +40,8 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding.staleTest(StaleElementExceptionUnderstanding.java:30)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+at org.sixAutomation.SDETTraining.HandleWithJavaScriptExecutor.useOnlyUsingID(HandleWithJavaScriptExecutor.java:59)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -73,15 +72,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- staleTest -->
-        <test-method status="PASS" signature="killSession()[pri:0, instance:org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding@45752059]" name="killSession" is-config="true" duration-ms="187" started-at="2021-09-09T11:28:33 IST" finished-at="2021-09-09T11:28:34 IST">
+        </test-method> <!-- useOnlyUsingID -->
+        <test-method status="PASS" signature="killSession()[pri:0, instance:org.sixAutomation.SDETTraining.HandleWithJavaScriptExecutor@1c3a4799]" name="killSession" is-config="true" duration-ms="120" started-at="2021-09-15T11:52:07 IST" finished-at="2021-09-15T11:52:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killSession -->
-      </class> <!-- org.sixAutomation.SDETTraining.StaleElementExceptionUnderstanding -->
+      </class> <!-- org.sixAutomation.SDETTraining.HandleWithJavaScriptExecutor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
