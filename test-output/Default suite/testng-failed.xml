@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sixAutomation.SDETTraining.MakeMyTrip">
+      <class name="org.sixAutomation.SDETTraining.TestNG.ReadDataFromXMLTestNG">
         <methods>
-          <include name="passDynamicValues"/>
+          <include name="readdata1"/>
+          <include name="readdata"/>
+          <include name="readdata2"/>
         </methods>
-      </class> <!-- org.sixAutomation.SDETTraining.MakeMyTrip -->
+      </class> <!-- org.sixAutomation.SDETTraining.TestNG.ReadDataFromXMLTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
