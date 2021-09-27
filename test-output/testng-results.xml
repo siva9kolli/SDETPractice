@@ -1,85 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48" started-at="2021-09-21T10:47:51 IST" finished-at="2021-09-21T10:47:51 IST">
+  <suite name="Default suite" duration-ms="56" started-at="2021-09-27T11:22:07 IST" finished-at="2021-09-27T11:22:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48" started-at="2021-09-21T10:47:51 IST" finished-at="2021-09-21T10:47:51 IST">
-      <class name="org.sixAutomation.SDETTraining.TestNG.ReadDataFromDataProvider">
-        <test-method status="PASS" signature="start()[pri:0, instance:org.sixAutomation.SDETTraining.TestNG.ReadDataFromDataProvider@1c3a4799]" name="start" is-config="true" duration-ms="2182" started-at="2021-09-21T10:47:49 IST" finished-at="2021-09-21T10:47:51 IST">
+    <test name="Default test" duration-ms="56" started-at="2021-09-27T11:22:07 IST" finished-at="2021-09-27T11:22:07 IST">
+      <class name="org.sixAutomation.SDETTraining.UnderstandingStrings">
+        <test-method status="PASS" signature="findDups()[pri:0, instance:org.sixAutomation.SDETTraining.UnderstandingStrings@6b2ea799]" name="findDups" duration-ms="11" started-at="2021-09-27T11:22:07 IST" finished-at="2021-09-27T11:22:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="PASS" signature="getDataFromDP1(java.lang.String, java.lang.String)[pri:0, instance:org.sixAutomation.SDETTraining.TestNG.ReadDataFromDataProvider@1c3a4799]" name="getDataFromDP1" duration-ms="7" started-at="2021-09-21T10:47:51 IST" data-provider="username" finished-at="2021-09-21T10:47:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Selenium1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDataFromDP1 -->
-        <test-method status="PASS" signature="getDataFromDP1(java.lang.String, java.lang.String)[pri:0, instance:org.sixAutomation.SDETTraining.TestNG.ReadDataFromDataProvider@1c3a4799]" name="getDataFromDP1" duration-ms="1" started-at="2021-09-21T10:47:51 IST" data-provider="username" finished-at="2021-09-21T10:47:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Selenium2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDataFromDP1 -->
-        <test-method status="PASS" signature="getDataFromDP1(java.lang.String, java.lang.String)[pri:0, instance:org.sixAutomation.SDETTraining.TestNG.ReadDataFromDataProvider@1c3a4799]" name="getDataFromDP1" duration-ms="1" started-at="2021-09-21T10:47:51 IST" data-provider="username" finished-at="2021-09-21T10:47:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Selenium3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDataFromDP1 -->
-        <test-method status="PASS" signature="getDataFromDP1(java.lang.String, java.lang.String)[pri:0, instance:org.sixAutomation.SDETTraining.TestNG.ReadDataFromDataProvider@1c3a4799]" name="getDataFromDP1" duration-ms="1" started-at="2021-09-21T10:47:51 IST" data-provider="username" finished-at="2021-09-21T10:47:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Selenium4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDataFromDP1 -->
-        <test-method status="PASS" signature="kill()[pri:0, instance:org.sixAutomation.SDETTraining.TestNG.ReadDataFromDataProvider@1c3a4799]" name="kill" is-config="true" duration-ms="84" started-at="2021-09-21T10:47:56 IST" finished-at="2021-09-21T10:47:56 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- kill -->
-      </class> <!-- org.sixAutomation.SDETTraining.TestNG.ReadDataFromDataProvider -->
+        </test-method> <!-- findDups -->
+      </class> <!-- org.sixAutomation.SDETTraining.UnderstandingStrings -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
