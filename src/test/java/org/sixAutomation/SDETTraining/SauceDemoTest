@@ -1,0 +1,65 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+public class SauceDemoTest {
+
+    WebDriver driver;
+
+    @Test
+    public void sauceDemoTest()  {
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.get("https://www.saucedemo.com/");
+        String allUserNames = "return document.getElementsByClassName('login_credentials')[0].innerText";
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        String userNames = (String) jse.executeScript(allUserNames);
+        String getUserNames[] = userNames.split(System.lineSeparator());
+
+        String firstUserName = getUserNames[1];
+        System.out.println("firstUserName === " + firstUserName);
+        String allPasswords = "return document.getElementsByClassName('login_password')[0].innerText";
+        String passwords = (String) jse.executeScript(allPasswords);
+        String getPasswords[] = passwords.split(System.lineSeparator());
+        String password = getPasswords[1];
+        System.out.println("password === " + password);
+
+        driver.findElement(By.id("user-name")).sendKeys(firstUserName);
+        driver.findElement(By.id("password")).sendKeys(password);
+        driver.findElement(By.name("login-button")).click();
+
+        List<WebElement> amountValues = driver.findElements(By.cssSelector(".inventory_item_price"));
+        List<String> getCurrencyValue = new ArrayList<>();
+        for(int i=0; i<amountValues.size(); i++){
+            getCurrencyValue.add((amountValues.get(i).getText().replace("$","")));
+        }
+
+        System.out.println("getCurrencyValue === " + getCurrencyValue);
+
+        List<Float> convertToFloatVales = new ArrayList<>();
+        for(int j=0; j<getCurrencyValue.size(); j++){
+            convertToFloatVales.add(Float.parseFloat(getCurrencyValue.get(j)));
+        }
+        System.out.println("getCurrencyValue == " + getCurrencyValue);
+        Float maxValue = Collections.max(convertToFloatVales);
+        System.out.println("maxValue == " + maxValue);
+
+        driver.findElement(By.xpath("//*[@class='inventory_item_price'][contains(text(),'$')][text()='"+maxValue+"']/following-sibling::button")).click();
+
+        Assert.assertEquals(Integer.parseInt(driver.findElement(By.className("shopping_cart_badge")).getText()), 1);
+
+    }
+}
